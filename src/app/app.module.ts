@@ -10,6 +10,7 @@ import { CarrinhoComponent } from './components/carrinho/carrinho.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuPrincipalComponent } from './components/menu-principal/menu-princip
     CarrinhoComponent,
     PerfilComponent,
     FavoritosComponent,
-    MenuPrincipalComponent
+    MenuPrincipalComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
