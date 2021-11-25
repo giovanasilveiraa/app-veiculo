@@ -11,6 +11,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
 import { LoginComponent } from './login/login.component';
+import { TabsPrincipalComponent } from './tabs-principal/tabs-principal.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginComponent } from './login/login.component';
     PerfilComponent,
     FavoritosComponent,
     MenuPrincipalComponent,
-    LoginComponent
+    LoginComponent,
+    TabsPrincipalComponent
   ],
   imports: [
     BrowserModule,
